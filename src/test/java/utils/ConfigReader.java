@@ -17,4 +17,5 @@ public class ConfigReader {
         HashMap configInfo = (HashMap) yamlMap.get(env);
         return configInfo.get(info).toString();
     }
+
 }

@@ -1,4 +1,4 @@
-package step_definitions;
+package step_definitions.UI;
 
 import base_def.DriverFactory;
 import io.cucumber.java.en.Given;
@@ -8,8 +8,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import pages.CommonPage;
 import pages.HomePage;
-
-import static org.junit.Assert.assertEquals;
 
 public class CheckEmailStep {
     WebDriver driver;
