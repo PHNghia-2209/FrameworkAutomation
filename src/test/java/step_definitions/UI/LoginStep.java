@@ -1,4 +1,4 @@
-package step_definitions;
+package step_definitions.UI;
 
 import base_def.DriverFactory;
 import base_def.VariableManager;

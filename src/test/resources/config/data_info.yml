@@ -2,3 +2,11 @@ data:
   url: "https://practice.automationtesting.in"
   username: "nghiatui2233@gmail.com"
   password: "NGhiatui@2233"
+
+
+#API
+local:
+  baseURI: "http://localhost:3000"
+  loginEndpoint: "/auth"
+  username: "sumo"
+  password: "123123A"

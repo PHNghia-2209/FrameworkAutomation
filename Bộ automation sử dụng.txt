@@ -1,0 +1,25 @@
+Bộ automation sử dụng:
+- Java JDK (JDK 17 - đây là phiên bản tốt nhất và được hổ trợ đến 2029)
+- IDE: IntelliJ IDEA
+- Maven 
+- ChromeDriver (tương ứng với Chrome đang dùng)
+
+- sử dụng Design Pattern: Page Object Mode( dùng để tách biệt logic điều hướng UI và kiểm thử)
+
+
+Cách build:
+
+src/
+├── main/
+│   └── java/
+│
+└── test/
+    └── java/
+    │	 └── features/            --> Cucumber Feature Files
+    │    └── stepdefs/           --> Cucumber Step Definitions
+    │    └── runners/            --> Cucumber Test Runner
+    │    └── hooks/              --> Cucumber Hooks (Before/After)
+    └── resources/
+         └── config/              --> Test Config
+	 └── data/                --> data test (file.yml)
+	 └── drivers/             --> chromeDiver.exe

@@ -7,7 +7,7 @@ public class TestBase {
     public WebDriver driver;
     public static ConfigReader configReader = new ConfigReader();
     public static String env = "data";
-    public static String browser = "data";
+    public static String api = "local";
 
     public synchronized WebDriver initWebDriver() {
         driver = DriverFactory.getDriver();
